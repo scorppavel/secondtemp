@@ -6,6 +6,11 @@ body {
   color: #424242;
 }
 
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
 .offer  {
   margin-right: auto; 
   margin-left:  auto;
@@ -50,7 +55,7 @@ body {
   background-color: #1287bf;
   border-radius: 5px;
   text-align: center;
-  margin-right: 190px;
+  margin-right: 178px;
 }
 
 .email {
@@ -61,4 +66,70 @@ body {
   padding: 5px 5px;
 }
 
+.main-menu {
+  margin-top: 43px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.section {
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-top: 10px;
+  margin-right: 11px;
+  width: 70px;
+  height: 40px;
+}
+
+.main-text {
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.logo-text {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.menu {
+ display: flex;
+}
+
+.main-menu-item {
+  margin-left: 190px;
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.first {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.point {
+  margin-right: 25px;
+}
+
+.btn {
+  background: #de2b24;
+  color: #fff;
+  border: none;
+  width: 167px;
+  height: 35px;
+  font-size: 16px;
+  padding: 5px 5px;
+  margin-left: 32px;
+}
 
