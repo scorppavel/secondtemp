@@ -162,10 +162,10 @@ a {
 }
 
 .about-us {
-  /* text-align: center; */
+  text-align: center;
   padding-top: 100px;
   width: 925px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .main-about-us {
@@ -215,4 +215,44 @@ a {
 .approuch {
   display: flex;
   background: #f3f3f3;
+  padding-top: 90px;
+}
+
+.first-step {
+  display: flex;
+  background: url('img/photo.png');
+  height: 237px;
+  margin-bottom: 40px;
+}
+
+.step-number {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin: 65px 0px 0px 290px;
+  width: 100px;
+  height: 100px;
+  background: #de2b24;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.number-text {
+  margin: -11px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.steps-text-headline {
+  margin: auto;
+  margin-left: 35px;
+  width: 555px;
+  font-weight: bold;
+}
+
+.step-text {
+  font-size: 14px;
+  font-weight: normal;
 }
