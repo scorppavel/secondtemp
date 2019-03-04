@@ -55,7 +55,7 @@ a {
   background-color: #1287bf;
   border-radius: 5px;
   text-align: center;
-  margin-right: 178px;
+  margin-right: 165px;
 }
 
 .email {
@@ -131,5 +131,88 @@ a {
   font-size: 16px;
   padding: 5px 5px;
   margin-left: 32px;
+  border-radius: 6px; 
 }
 
+.main-window {
+  background: url("img/main-picture.png") no-repeat;
+  margin-top: 45px;
+  text-align: center;
+  padding-bottom: 220px;
+}
+
+.action-text {
+  color: #fff;
+  font-size: 65px;
+  padding-top: 170px;
+}
+
+.some-text {
+  font-size: 14px;
+}
+ 
+.main-window .btn {
+  text-transform: uppercase;
+  width: 340px;
+  height: 75px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 32px;
+  background-color: #f8cd53;
+}
+
+.about-us {
+  /* text-align: center; */
+  padding-top: 100px;
+  width: 925px;
+  /* margin: 0 auto; */
+}
+
+.main-about-us {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.main-about-text {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.stripe {
+  margin: 0 auto;
+  border: 2px solid #000;
+  width: 35px;
+  margin-bottom: 47px;
+} 
+
+.blocks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.block-content {
+  margin-right: 35px;
+  width: 250px;
+}
+
+.block-content-end {
+  width: 250px;
+  padding-bottom: 123px;
+}
+
+.block-content h2 {
+  font-size: 22px;
+}
+
+.block-content-end h2 {
+  font-size: 22px;
+}
+
+.approuch {
+  display: flex;
+  background: #f3f3f3;
+}
