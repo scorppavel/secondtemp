@@ -304,7 +304,17 @@ a {
   display: flex;
   background: url('img/work-desk.png');
   height: 237px;
-  margin-bottom: 40px;
+  margin-bottom: 133px;
 }
 
+.our-work {
+  display: flex;
+  background: #de2b24;
+  padding-top: 133px;
+  color: #fff;
+}
+
+.our-work .stripe {
+  border: solid #fff;
+}
 
