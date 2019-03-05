@@ -218,14 +218,14 @@ a {
   padding-top: 90px;
 }
 
-.first-step {
+.first-step-left {
   display: flex;
   background: url('img/photo.png');
   height: 237px;
   margin-bottom: 40px;
 }
 
-.step-number {
+.step-number-left {
   font-family: 'Roboto Slab', serif;
   text-align: center;
   margin: 65px 0px 0px 290px;
@@ -245,14 +245,66 @@ a {
   font-weight: normal;
 }
 
-.steps-text-headline {
+.steps-text-headline-left {
   margin: auto;
   margin-left: 35px;
   width: 555px;
   font-weight: bold;
 }
 
-.step-text {
+.step-text-left {
   font-size: 14px;
   font-weight: normal;
 }
+
+.second-step-right {
+  display: flex;
+  background: url('img/road.png');
+  height: 237px;
+  margin-bottom: 40px;
+}
+
+
+.step-number-right {
+  margin: auto;
+  margin-right: 280px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #de2b24;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.steps-text-headline-right {
+  text-align: right;
+  margin: auto;
+  margin-right: -20px;
+  width: 555px;
+  font-weight: bold;
+}
+
+.step-text-right {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.third-step-left {
+  display: flex;
+  background: url('img/cafe.png');
+  height: 237px;
+  margin-bottom: 40px;
+}
+
+.quarter-step-right {
+  display: flex;
+  background: url('img/work-desk.png');
+  height: 237px;
+  margin-bottom: 40px;
+}
+
+
