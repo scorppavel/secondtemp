@@ -71,7 +71,7 @@ a {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin: auto;
   width: 1024px;
 }
 
@@ -307,14 +307,38 @@ a {
   margin-bottom: 133px;
 }
 
-.our-work {
-  display: flex;
-  background: #de2b24;
-  padding-top: 133px;
+.project-blocks {
   color: #fff;
+  display: flex;
+  background: #f35e59;
+  width: 512px;
+  height: 253px;
 }
 
-.our-work .stripe {
-  border: solid #fff;
+.airplane {
+  margin: auto;
+  text-align: center;
 }
+
+.name-of {
+  padding-top: 30px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.name-of p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 2px;
+}
+
+.block-picture {
+  height: 253px;
+}
+
+.upper-block  {
+  display: flex;
+}
+
+
 
