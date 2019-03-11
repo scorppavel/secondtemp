@@ -427,24 +427,86 @@ form .btn a {
 }
 
 .get {
-  display: flex;
   padding-top: 115px;
   background: #2a2a2a;
 }
 
 .get-in {
   padding-bottom: 30px;
+  text-align: center;
   color: #fff;
   font-size: 30px;
   font-weight: bold;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-fb {
+  margin-right: 15px;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #de2b24;
+}
+
+.social-icons-fb img {
+  padding: 15px; 
+}
+
 .social-icons {
+  margin-right: 20px;
   width: 45px;
   height: 45px;
   border: 2px solid #515151;
 }
 
 .social-icons img {
-  padding: 10px;
+  padding: 15px;
+}
+
+.text-get-in {
+  text-align: center;
+  font-size: 14px;
+  color: #cecece;
+  padding: 35px 0 30px 0;
+}
+
+#getin-input {
+  border-radius: 0;
+  width: 682px;
+  background: #515151;
+  border: none;
+}
+
+.input-getin {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.get .btn {
+  height: 50px;
+  width: 150px;
+  background: #2a2a2a;
+  border: 2px solid #424242;
+  border-radius: 10px;
+}
+
+.btn-get {
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.get .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  color: #cecece; 
+  background: #424242;
+  height: 30px;
 }
