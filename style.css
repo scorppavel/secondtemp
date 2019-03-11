@@ -106,7 +106,7 @@ a {
 }
 
 .main-menu-item {
-  margin-left: 190px;
+  margin-left: 185px;
   display: flex;
   justify-content: right;
   font-weight: bold;
@@ -315,6 +315,17 @@ a {
   height: 253px;
 }
 
+.our-work {
+  padding-top: 115px;
+  background: #de2b24;
+  color: #fff;
+  padding-bottom: 130px;
+}
+
+.our-work .stripe {
+  border: solid #fff;
+}
+
 .airplane {
   margin: auto;
   text-align: center;
@@ -336,9 +347,104 @@ a {
   height: 253px;
 }
 
-.upper-block  {
+.for-section {
   display: flex;
 }
 
+.autorization-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+  background: #1287bf;
+  padding: 95px 0 108px 0;
+}
 
+.headline-for-form {
+  font-size: 36px;
+}
 
+.headline-for-form p {
+  font-size: 20px;
+}
+
+.headline-for-form img {
+  margin-bottom: 65px;
+}
+
+.form-text {
+  font-size: 14px;
+  color: #a6a6a6;
+  text-align: center;
+  margin: 0 65px 0 65px;
+}
+
+form {
+  border-radius: 5px;
+  padding-top: 50px;
+  color: #a6a6a6;
+  background: #fff;
+  width: 682px;
+  height: 445px;
+}
+
+input {
+  border: solid #d8d8d8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 15px;
+  width: 445px;
+  margin-bottom: 5px;
+}
+
+.inputs {
+  margin: auto;
+  padding-top: 40px;
+  height: 170px;
+  width: 445px;
+  margin-bottom: 35px;
+}
+
+::placeholder {
+  color: #bbbbbb;
+}
+
+form .btn {
+  height: 45px;
+  width: 160px;
+  font-weight: bold;
+}
+
+form .btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.first {
+  border: solid #1287bf;
+}
+
+.get {
+  display: flex;
+  padding-top: 115px;
+  background: #2a2a2a;
+}
+
+.get-in {
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.social-icons {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #515151;
+}
+
+.social-icons img {
+  padding: 10px;
+}
